@@ -1,4 +1,4 @@
-module echo_repo
+module echo_test
 
 go 1.17
 

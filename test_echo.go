@@ -1,3 +1,6 @@
+// connection address
+// http://ec2-3-145-1-160.us-east-2.compute.amazonaws.com:8000/
+
 package main
 
 import (
