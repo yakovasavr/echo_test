@@ -10,7 +10,7 @@ RUN go mod download
 
 COPY *.go ./
 
-RUN go build /test_echo
+RUN go build -o /test_echo
 
 EXPOSE 8000
 CMD [ "/test_echo" ]
