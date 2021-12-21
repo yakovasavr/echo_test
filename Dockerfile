@@ -1,4 +1,4 @@
-docker/dockerfile:1
+# syntax=docker/dockerfile:1
 
 FROM golang:latest
 
