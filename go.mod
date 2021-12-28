@@ -2,7 +2,10 @@ module echo_test
 
 go 1.17
 
-require github.com/labstack/echo v3.3.10+incompatible
+require (
+	github.com/labstack/echo v3.3.10+incompatible
+	github.com/lib/pq v1.10.4
+)
 
 require (
 	github.com/labstack/gommon v0.3.1 // indirect
